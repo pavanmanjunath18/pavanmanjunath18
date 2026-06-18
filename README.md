@@ -37,6 +37,24 @@ I find learning by building more useful than learning by reading. So most of wha
 
 ## 🔨 Selected projects
 
+**[ReadmitScope US](https://github.com/pavanmanjunath18/readmitscope)** · **[Live Dashboard](https://readmitscope.vercel.app)**
+
+An end-to-end healthcare analytics project on CMS Medicare hospital readmissions. I built the full workflow: live CMS data pull, cleaning, data quality logs, notebooks, statistical analysis, enrichment with hospital ownership/star ratings, and a deployed React dashboard.
+
+`Python` `pandas` `scipy` `scikit-learn` `React` `TypeScript` `Recharts` `Vercel`
+
+![ReadmitScope dashboard hero](https://raw.githubusercontent.com/pavanmanjunath18/readmitscope/main/docs/assets/readmitscope-hero.png)
+
+| Analysis story | Hospital explorer |
+|---|---|
+| ![ReadmitScope analysis view](https://raw.githubusercontent.com/pavanmanjunath18/readmitscope/main/docs/assets/readmitscope-analysis.png) | ![ReadmitScope hospital explorer](https://raw.githubusercontent.com/pavanmanjunath18/readmitscope/main/docs/assets/readmitscope-explorer.png) |
+
+> What I actually learned: healthcare metrics need careful framing. ERR looks simple, but the useful work is understanding risk adjustment, suppression rules, volume effects, ownership differences, and how to turn a policy dataset into something decision-makers can inspect.
+
+**[Live Demo](https://readmitscope.vercel.app)** · **[Repository](https://github.com/pavanmanjunath18/readmitscope)**
+
+---
+
 **[ResolvIQ](https://github.com/pavanmanjunath18/resolviq)**
 
 An exploration of AI-assisted incident investigation workflows.
@@ -91,4 +109,3 @@ The most useful AI tools are the ones that make people better at their jobs. The
 ---
 
 *Still figuring things out. Enjoying the process.*
-
