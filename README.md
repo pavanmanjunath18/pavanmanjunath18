@@ -39,35 +39,75 @@ I find learning by building more useful than learning by reading. So most of wha
 
 **[ReadmitScope US](https://github.com/pavanmanjunath18/readmitscope)** · **[Live Dashboard](https://readmitscope.vercel.app)**
 
-An end-to-end healthcare analytics project on CMS Medicare hospital readmissions. I built the full workflow: live CMS data pull, cleaning, data quality logs, notebooks, statistical analysis, enrichment with hospital ownership/star ratings, and a deployed React dashboard.
+Healthcare analytics project on CMS Medicare hospital readmissions. I built the full workflow: live CMS data pull, cleaning, data quality logs, notebooks, statistical analysis, enrichment with hospital ownership/star ratings, and a deployed React dashboard.
 
 `Python` `pandas` `scipy` `scikit-learn` `React` `TypeScript` `Recharts` `Vercel`
 
 ![ReadmitScope dashboard hero](https://raw.githubusercontent.com/pavanmanjunath18/readmitscope/main/docs/assets/readmitscope-hero.png)
 
-| Analysis story | Hospital explorer |
-|---|---|
-| ![ReadmitScope analysis view](https://raw.githubusercontent.com/pavanmanjunath18/readmitscope/main/docs/assets/readmitscope-analysis.png) | ![ReadmitScope hospital explorer](https://raw.githubusercontent.com/pavanmanjunath18/readmitscope/main/docs/assets/readmitscope-explorer.png) |
-
-> What I actually learned: healthcare metrics need careful framing. ERR looks simple, but the useful work is understanding risk adjustment, suppression rules, volume effects, ownership differences, and how to turn a policy dataset into something decision-makers can inspect.
+**Signal:** Data Analyst / Data Scientist — exploratory analysis, statistical testing, healthcare metric framing, deployed BI-style dashboard.
 
 **[Live Demo](https://readmitscope.vercel.app)** · **[Repository](https://github.com/pavanmanjunath18/readmitscope)**
 
 ---
 
-**[ResolvIQ](https://github.com/pavanmanjunath18/resolviq)**
+**[CardioScope 3D](https://github.com/pavanmanjunath18/cardioscope-3d)** · **[Live Demo](https://cardioscope-3d.vercel.app)**
 
-An exploration of AI-assisted incident investigation workflows.
+Interactive 3D cardiovascular risk explorer using the UCI Cleveland Heart Disease dataset. The app projects 297 patients into PCA space, supports k-means clustering, trains a logistic regression risk model, and lets users simulate a patient to inspect risk and top contributing features.
 
-The question I was trying to answer: *When something breaks in production, how much of the context needed to fix it already exists somewhere — in past incidents, runbooks, documentation?* ResolvIQ is an attempt to build a system that retrieves and surfaces that context automatically.
+`React` `TypeScript` `Three.js` `PCA` `k-means` `Logistic Regression` `Data Visualization`
 
-I built it primarily to understand retrieval systems, async backend patterns, and how modern AI features are wired into a real application — not as a production tool, but as a serious attempt to work through the concepts hands-on.
+![CardioScope 3D preview](https://raw.githubusercontent.com/pavanmanjunath18/cardioscope-3d/main/docs/preview.png)
 
-`FastAPI` `LangChain` `Pinecone` `ChromaDB` `PostgreSQL` `React` `TypeScript` `Docker` `GitHub Actions`
+**Signal:** Data Scientist / Visualization Engineer — dimensionality reduction, clustering, predictive modeling, explainable feature contributions, interactive analytics UI.
 
-> What I actually learned: vector search is messier than the demos suggest, async Python has a lot of quiet failure modes, and the gap between "works locally" and "works reliably" is larger than I expected.
+---
 
-**[Live Demo](https://resolviq.pavanmallipudi.dev)** · *(AWS deployment in progress — link will be live soon)*
+**[Enterprise Retail Lakehouse](https://github.com/pavanmanjunath18/enterprise-retail-lakehouse-aws-databricks)**
+
+Post-acquisition retail data integration project that consolidates parent and acquired-company data into a Databricks lakehouse. Implements Bronze/Silver/Gold layers, Delta MERGE upserts, S3 landing-zone ingestion, incremental processing, grain alignment, and a gold star-schema analytics view.
+
+`Databricks` `PySpark` `Delta Lake` `AWS S3` `SQL` `Unity Catalog` `Data Engineering`
+
+![Lakehouse dashboard](https://raw.githubusercontent.com/pavanmanjunath18/enterprise-retail-lakehouse-aws-databricks/main/dashboards/dashboard_full.png)
+
+**Signal:** Data Engineer / Analytics Engineer — medallion architecture, schema harmonization, incremental loads, quality remediation, dashboard-ready data modeling.
+
+---
+
+**[SaaS Revenue & Churn Intelligence](https://github.com/pavanmanjunath18/saas-revenue-churn-intelligence)**
+
+Subscription analytics platform that turns raw billing events into MRR, ARR, NRR, GRR, churn, cohort retention, and customer health intelligence. The core model is a PostgreSQL MRR state machine using window functions and materialized views.
+
+`Python` `PostgreSQL` `SQL` `Streamlit` `Plotly` `Data Modeling` `Analytics Engineering`
+
+![SaaS dashboard](https://raw.githubusercontent.com/pavanmanjunath18/saas-revenue-churn-intelligence/main/docs/assets/02_revenue_overview.png)
+
+**Signal:** Data Analyst / Analytics Engineer — SaaS metric design, SQL modeling, synthetic data generation, validation checks, executive dashboarding.
+
+---
+
+**[FraudStream AI](https://github.com/pavanmanjunath18/fraudstream-ai)**
+
+Real-time transaction risk platform with an XGBoost fraud model, SHAP explanations, deterministic risk rules, drift monitoring, FastAPI backend, and Next.js dashboard. Designed to show the ML engineering loop from synthetic data to scoring API to monitoring.
+
+`Python` `XGBoost` `SHAP` `FastAPI` `PostgreSQL` `Redis` `Next.js` `ML Engineering`
+
+![FraudStream dashboard](https://raw.githubusercontent.com/pavanmanjunath18/fraudstream-ai/main/screenshots/01_dashboard.png)
+
+**Signal:** Data Scientist / ML Engineer — feature engineering, model evaluation, explainability, fraud rules, inference API, monitoring.
+
+---
+
+**[Iowa Nitrate Analysis](https://github.com/pavanmanjunath18/iowa-nitrate-analysis)**
+
+Geospatial analysis of agricultural intensity and nitrate contamination across Iowa counties from 2010-2017. Combines USDA crop acreage, EPA water-quality data, county shapefiles, correlation analysis, maps, trend plots, and clear limitations.
+
+`Python` `pandas` `GeoPandas` `Matplotlib` `SciPy` `Geospatial Analysis` `Jupyter`
+
+![Iowa nitrate map](https://raw.githubusercontent.com/pavanmanjunath18/iowa-nitrate-analysis/main/figures/map5_bivariate.png)
+
+**Signal:** Data Analyst / Data Scientist — research framing, geospatial joins, correlation analysis, environmental data storytelling, statistical caveats.
 
 ---
 
