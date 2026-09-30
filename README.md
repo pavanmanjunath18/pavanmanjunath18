@@ -96,7 +96,7 @@ At ASU's Social Embeddedness office I was a Community Engagement Data Analyst (S
 
 For my capstone I was the Data Engineer on a high-volume MySQL production database for DigiClips (Aug 2025 to Apr 2026). I automated retention cleanup with the Event Scheduler, removed duplicate and bad-timestamp records, and refactored the search stored procedures, cutting median query latency 64% (1.8s to 650ms) on a 500K-record test database.
 
-In summer 2025 I was a Data Analyst intern at Food Forest AI, building GenAI-driven pipelines that turn supplier PDFs into structured data. I learned that data quality problems are mostly discovered after someone has already trusted the bad data.
+In summer 2025 I was a Data Analyst intern at Food Forest AI, where I built a pipeline that converted 650+ supplier PDFs into standardized JSON profiles across 15 attributes, cutting supplier onboarding from 12 to 4 minutes. I also ran Python and SQL quality checks across 2,500+ profiles (420 missing fields, 275 formatting anomalies, 110 duplicates) and built Power BI dashboards on 8,000+ B2B search events. I learned that data quality problems are mostly discovered after someone has already trusted the bad data.
 
 I'm from India, and I've been navigating school and career in the US as an international student. It's taught me to be resourceful and to not take shortcuts when I can't afford them.
 
