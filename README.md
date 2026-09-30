@@ -92,7 +92,7 @@ Post-acquisition retail data integration project that consolidates parent and ac
 
 ## 🗂️ Background
 
-At ASU's Social Embeddedness office I was a Community Engagement Data Analyst (Sep 2024 to May 2026). I administered the Collaboratory platform as its database maintainer, built Tableau and Power BI dashboards for 10+ departments, and added generative AI workflows that turn long-form stakeholder narratives into structured, queryable records. That work shaped how I think about analytics: the visualization is the easy part, the hard part is understanding what question you're actually trying to answer.
+At ASU's Social Embeddedness office I was a Community Engagement Data Analyst (Sep 2024 to May 2026). I administered and validated 2,300+ engagement activities across 32 ASU units and 650 community organizations, raising required-field completeness from 78% to 96%. I built Tableau Prep pipelines and 6 dashboards tracking 10 institutional KPIs, cutting monthly reporting prep from 4 days to 6 hours. I also built a Python and GPT-4o mini workflow that classifies stakeholder narratives into 12 standardized themes with 91% agreement against human review. That work shaped how I think about analytics: the visualization is the easy part, the hard part is understanding what question you're actually trying to answer.
 
 For my capstone I was the Data Engineer on a high-volume MySQL production database for DigiClips (Aug 2025 to Apr 2026). I automated retention cleanup with the Event Scheduler, removed duplicate and bad-timestamp records, and refactored the search stored procedures, cutting median query latency 64% (1.8s to 650ms) on a 500K-record test database.
 
