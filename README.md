@@ -109,19 +109,6 @@ I'm from India, and I've been navigating school and career in the US as an inter
 
 ---
 
-## 💡 Things I find genuinely interesting
-
-- How you tell whether an ML system actually works: evaluation design, leakage, and the gap between a validation score and reality
-- What retrieval changes about what a small local model can answer
-- Why distributed systems fail in non-obvious ways
-- How operational data can improve human decision-making (not replace it)
-- The design of systems that are debuggable, not just functional
-- What makes an AI feature actually useful in practice vs. impressive in a demo
-- The gap between analytics and engineering, and what lives in it
-- Off the clock: hiking and national parks (I've hiked Humphreys Peak, the highest point in Arizona at 12,633 ft)
-
----
-
 ## 💬 A few things I think are true
 
 Good analysis and good engineering both require the same thing: understanding the problem well enough to know which simplifications are safe.
